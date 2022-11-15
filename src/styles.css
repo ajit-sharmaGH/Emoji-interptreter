@@ -1,16 +1,34 @@
 .App {
-  font-family: sans-serif;
   text-align: center;
-  background-color: pink;
-  border-radius: 1rem;
+  background-color: honeydew;
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
 }
 
 input {
   padding: 1rem;
+  outline-color: blueviolet;
+  border: none;
   width: 80%;
+  border-radius: 8px;
   background-color: antiquewhite;
 }
-
+h3 {
+  font-size: 1.5rem;
+  margin: 5px 1rem;
+  letter-spacing: 1px;
+}
+h2 {
+  color: blueviolet;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: monospace;
+}
 span {
   font-size: 2rem;
   padding: 0.5rem;
@@ -18,6 +36,6 @@ span {
 }
 
 #footer {
-  margin-top: 3rem;
+  margin-top: auto;
   padding: 1rem;
 }
