@@ -28,12 +28,7 @@ export default function App() {
     var userInput = event.target.value;
 
     var meaning = emojiDictionary[userInput];
-    // key inside object
-    // if(inputEmoji in dictionary)
-    // if (meaning === undefined) {
-    //   meaning = "Oops! Something went wrong.";
-    // }
-    // console.log(meaning)
+
     setMeaning(meaning);
   }
 
